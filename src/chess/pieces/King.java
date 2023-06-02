@@ -17,8 +17,8 @@ public class King extends ChessPiece {
 
 	@Override
 	public boolean[][] possibleMove() {
-		// TODO Auto-generated method stub
-		return null;
+		boolean [][] array = new boolean[getBoard().getRows()][getBoard().getColumns()];
+		return array;
 	}
 	
 }
